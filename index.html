@@ -19,9 +19,33 @@
         </header>
         
         <form>
-            <h2>Informações do Evento</h2>
+        
+            <fieldset>
+                <legend>Informações do Evento</legend>  
+
+                
+                <label for="titulo-evento">Titulo do evento <span>(minimo 8 caracteres)</span></label>
+                <input type="text" name="titulo-evento" id="titulo-evento">
+                
+                <label for="link-evento">Link do evento <span>(comece com https://)</span></label>
+                <input type="text" name="link-evento" id="link-evento">
     
-            <label for=""></label>
+                <label for="whatsapp">Whatsapp para contato <span>(somente números)</span></label>
+                <input type="number" name="whatsapp" id="whatsapp">
+    
+                <label for="info">Informações  extras</label>
+                <textarea name="info" id="info" ></textarea>
+                
+                <label for="categoria">Categoria</label>
+                <select name="categoria" id="categoria">
+                <option value="tipo">Tipo de evento</option>
+    
+                </select> 
+
+            </fieldset> 
+        
+
+            
     
     
         </form>

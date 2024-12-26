@@ -63,7 +63,9 @@ form{
 
 fieldset{
     border: none;
-
+    
+}
+.fieldset-wrapper{
     display: flex;
     
 }
